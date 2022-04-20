@@ -1,0 +1,40 @@
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "Script started"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div Started"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div Completed"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div1 Started"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div1 Completed"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div2 Started"}
+{"time": "2022-04-20 10:27:33,208", "level": "INFO", "message": "div2 Completed"}
+{"time": "2022-04-20 10:27:33,209", "level": "INFO", "message": "after_div Started"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "after_div Completed"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "after_div1 Started"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "after_div1 Completed"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "add Started"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "add Completed"}
+{"time": "2022-04-20 10:27:33,210", "level": "INFO", "message": "Script completed"}
+{"time": "2022-04-20 10:27:45,187", "level": "INFO", "message": "Script started"}
+{"time": "2022-04-20 10:27:45,187", "level": "INFO", "message": "div Started"}
+{"time": "2022-04-20 10:27:45,188", "level": "ERROR", "message": "division by zero"}
+Traceback (most recent call last):
+  File "C:\AI-ML-Projects\ML\custom_decorator_with_logger\utility.py", line 38, in inner_function
+    value = func(*args, **kwargs)
+  File "C:/AI-ML-Projects/ML/custom_decorator_with_logger/exception_decorator.py", line 11, in div
+    print("divison is ", a / b)
+ZeroDivisionError: division by zero
+{"time": "2022-04-20 10:27:45,190", "level": "INFO", "message": "div Completed"}
+{"time": "2022-04-20 10:27:45,191", "level": "INFO", "message": "div1 Started"}
+{"time": "2022-04-20 10:27:45,191", "level": "ERROR", "message": "division by zero"}
+Traceback (most recent call last):
+  File "C:\AI-ML-Projects\ML\custom_decorator_with_logger\utility.py", line 38, in inner_function
+    value = func(*args, **kwargs)
+  File "C:/AI-ML-Projects/ML/custom_decorator_with_logger/exception_decorator.py", line 16, in div1
+    print("divison is ", a / b)
+ZeroDivisionError: division by zero
+{"time": "2022-04-20 10:27:45,191", "level": "INFO", "message": "div1 Completed"}
+{"time": "2022-04-20 10:27:45,191", "level": "INFO", "message": "div2 Started"}
+{"time": "2022-04-20 10:27:45,192", "level": "INFO", "message": "div2 Completed"}
+{"time": "2022-04-20 10:27:45,192", "level": "INFO", "message": "add Started"}
+{"time": "2022-04-20 10:27:45,192", "level": "INFO", "message": "add Completed"}
+{"time": "2022-04-20 10:27:45,192", "level": "ERROR", "message": "after_div had Error. Please check the log file for more Info"}
+{"time": "2022-04-20 10:27:45,192", "level": "ERROR", "message": "after_div1 had Error. Please check the log file for more Info"}
+{"time": "2022-04-20 10:27:45,192", "level": "INFO", "message": "Script completed"}
